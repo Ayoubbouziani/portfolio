@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel de Ayoub Bouziani - Développeur Web & Mobile">
+    <title>Portfolio - Ayoub Bouziani</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <h1 class="neon-text">Bienvenue sur mon portfolio</h1>
+        <p>Je suis <span class="gradient-text">Ayoub Bouziani</span>, Développeur Web & Mobile</p>
+        <a href="#portfolio" class="btn neon-btn">Voir mon travail</a>
+    </section>
+    
+    <section id="apropos" class="glass">
+        <h2>À propos</h2>
+        <img src="votre-photo.jpg" alt="Photo de Ayoub Bouziani">
+        <p>Passionné par le développement web et mobile, j'apporte mon expertise en création d'applications performantes et ergonomiques. Mon objectif est de concevoir des solutions digitales modernes et optimisées.</p>
+        <h3>Compétences</h3>
+        <ul>
+            <li>HTML / CSS / JavaScript</li>
+            <li>PHP / Laravel</li>
+            <li>React / Vue.js</li>
+            <li>Kotlin / Flutter</li>
+            <li>WordPress & SEO</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio" class="glass">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="projet1.jpg" alt="Projet 1">
+                <p>Développement backend avec Laravel chez CDMA Solutions.</p>
+            </div>
+            <div class="project">
+                <img src="projet2.jpg" alt="Projet 2">
+                <p>Création et optimisation de sites WordPress pour Fastgroupe Digital Services.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="glass">
+        <h2>Contact</h2>
+        <p>Email : <a href="contact@ayoubbouziani.fr">contact@ayoubbouziani.fr</a></p>
+        <p>Téléphone : 06 00 00 00 00</p>
+        <p><a href="https://www.linkedin.com/in/ayoubbouziani/" target="_blank">LinkedIn</a> | <a href="https://github.com/Ayoubbouziani" target="_blank">GitHub</a> | <a href="https://ayoubbouziani.fr" target="_blank">Portfolio</a></p>
+        <form>
+            <label for="name">Nom</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit" class="neon-btn">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Ayoub Bouziani - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
